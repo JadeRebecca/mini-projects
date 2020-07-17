@@ -106,6 +106,24 @@ footer{
 .pawn{
     flex-basis :25%;
 }
+#pawn-1{
+    background-color: tomato;
+}
+#pawn-2{
+    background-color: rgb(71, 255, 215);
+}
+#pawn-3{
+    background-color: rgb(184, 255, 71);
+}
+#pawn-4{
+    background-color: rgb(71, 99, 255);
+}
+#pawn-5{
+    background-color: rgb(224, 71, 255);
+}
+#pawn-6{
+    background-color: rgb(255, 145, 71);
+}
 .round{
     border-radius: 50%;
     height: 70px;
