@@ -1,0 +1,399 @@
+<html>
+    <head>
+        <title>Mastermind</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="mastermind.css">
+        <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+  
+  <body>
+    <header>
+        <h1>Mastermind</h1>
+    </header>
+    <div id="main">
+        <div id="game">
+            <div id="count">
+                <div class="number">
+                    8
+                </div>
+                <div class="number">
+                    7
+                </div>
+                <div class="number">
+                    6
+                </div>
+                <div class="number">
+                    5
+                </div>
+                <div class="number">
+                    4
+                </div>
+                <div class="number">
+                    3
+                </div>
+                <div class="number">
+                    2
+                </div>
+                <div class="number">
+                    1
+                </div>
+            </div>
+            <div id="grid">
+                <div class="line">
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                    <div class="pawn">
+                        <div class="round">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="score">
+                <div class="attempt">
+                    <div class="attempt-line">
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="attempt-line">
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="attempt">
+                    <div class="attempt-line">
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="attempt-line">
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="attempt">
+                    <div class="attempt-line">
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="attempt-line">
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="attempt">
+                    <div class="attempt-line">
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="attempt-line">
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="attempt">
+                    <div class="attempt-line">
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="attempt-line">
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="attempt">
+                    <div class="attempt-line">
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="attempt-line">
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="attempt">
+                    <div class="attempt-line">
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="attempt-line">
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="attempt">
+                    <div class="attempt-line">
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="attempt-line">
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                        <div class="attempt-item">
+                            <div class="attempt-round">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="color">
+            <div class="pawn">
+                <div class="round">
+                </div>
+            </div>
+            <div class="pawn">
+                <div class="round">
+                </div>
+            </div>
+            <div class="pawn">
+                <div class="round">
+                </div>
+            </div>
+            <div class="pawn">
+                <div class="round">
+                </div>
+            </div>
+            <div class="pawn">
+                <div class="round">
+                </div>
+            </div>
+            <div class="pawn">
+                <div class="round">
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <footer>
+        <p>Jade Dupont - 2020</p>
+    </footer>
+   
+  </body>
